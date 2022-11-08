@@ -11,5 +11,5 @@ exit
 del C:\Windows\setup.bat
 cls
 echo Done!
-paue >> nul
+pause >> nul
 exit
