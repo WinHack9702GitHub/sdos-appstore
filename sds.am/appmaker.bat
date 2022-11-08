@@ -58,7 +58,7 @@ copy con %appaltnamevbs%.bat
 copy %appaltnamevbs%.bat C:\Windows\%appaltnamebatch%.bat
 echo echo %appaltnamevbs% - %appnamevbs% >> C:\Windows\appman\name.cmd
 echo if "%appmansel%"=="%appaltnamevbs%" (start C:\Windows\%appaltnamevbs%.bat) >> C:\Windows\appman\if.cmd
-echo start C:\Windows\%appaltnamevbs%.hta >> C:\Windows\%appaltnamevbs%.bat
+echo start C:\Windows\%appaltnamevbs%.vbs >> C:\Windows\%appaltnamevbs%.bat
 cls
 echo Done!app is created and installed.Click any key to return to app window...
 pause >> nul
