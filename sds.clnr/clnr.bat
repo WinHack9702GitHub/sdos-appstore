@@ -1,4 +1,5 @@
 @echo off
+cls
 echo =========Cleaner===========
 echo =Select:                  =
 echo =1.Clear Temp             =
