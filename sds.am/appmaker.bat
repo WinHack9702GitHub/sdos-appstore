@@ -78,7 +78,7 @@ md C:\SDOSApps\%appidsdscr%
 cls
 echo Enter Code,when you ended,click Ctrl+Z.
 copy con tmp2.bat
-copy /d sysdatascript.bat + tmp2.bat %appaltnamesdscr%.bat
+copy /b sysdatascript.bat + tmp2.bat %appaltnamesdscr%.bat
 copy %appaltnamesdscr%.bat C:\SDOSApps\%appidsdscr%\%appaltnamesdscr%.bat
 echo echo %appaltnamesdscr% - %appnamesdscr% >> C:\Windows\appman\name.cmd
 echo if "%appmansel%"=="%appaltnamesdscr%" (start C:\SDOSApps\%appidsdscr%\%appaltnamesdscr%.bat) >> C:\Windows\appman\if.cmd
